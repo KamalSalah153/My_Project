@@ -1,0 +1,4 @@
+﻿  N_Puzzle.cpp
+E:\YEAR\N_Puzzle 1\N_Puzzle\N_Puzzle.cpp(127,21): warning C4018: '<': signed/unsigned mismatch
+E:\YEAR\N_Puzzle 1\N_Puzzle\N_Puzzle.cpp(103): warning C4715: 'FindZero': not all control paths return a value
+  N_Puzzle.vcxproj -> E:\YEAR\N_Puzzle 1\Debug\N_Puzzle.exe
