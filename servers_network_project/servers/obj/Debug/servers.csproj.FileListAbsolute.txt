@@ -1,0 +1,7 @@
+C:\Users\win10\Desktop\servers\servers\bin\Debug\servers.exe.config
+C:\Users\win10\Desktop\servers\servers\bin\Debug\servers.exe
+C:\Users\win10\Desktop\servers\servers\bin\Debug\servers.pdb
+C:\Users\win10\Desktop\servers\servers\obj\Debug\servers.csproj.AssemblyReference.cache
+C:\Users\win10\Desktop\servers\servers\obj\Debug\servers.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\servers\servers\obj\Debug\servers.exe
+C:\Users\win10\Desktop\servers\servers\obj\Debug\servers.pdb
