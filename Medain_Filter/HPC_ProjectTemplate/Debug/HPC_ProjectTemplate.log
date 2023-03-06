@@ -1,0 +1,10 @@
+﻿  Source.cpp
+E:\YEAR\HPC\HPC_ProjectTemplate\HPC_ProjectTemplate\Source.cpp(140,12): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+E:\YEAR\HPC\HPC_ProjectTemplate\HPC_ProjectTemplate\Source.cpp(141,10): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+E:\YEAR\HPC\HPC_ProjectTemplate\HPC_ProjectTemplate\Source.cpp(144,23): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+E:\YEAR\HPC\HPC_ProjectTemplate\HPC_ProjectTemplate\Source.cpp(147,70): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\YEAR\HPC\HPC_ProjectTemplate\HPC_ProjectTemplate\Source.cpp(147,32): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  Generating Code...
+  Source.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  HPC_ProjectTemplate.vcxproj -> E:\YEAR\HPC\HPC_ProjectTemplate\Debug\HPC_ProjectTemplate.exe
