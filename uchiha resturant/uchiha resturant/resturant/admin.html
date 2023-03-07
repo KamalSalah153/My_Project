@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script>
+function changeColor(color){
+document.getElementById("0").style.background = color; }
+function image1(){
+document.body.style.backgroundImage = "url(e1.jpeg)";
+}
+function image2(){
+document.body.style.backgroundImage = "url(e2.jpeg)";
+}
+function image3(){
+document.body.style.backgroundImage = "url(e3.jpeg)";
+}
+function image4(){
+document.body.style.backgroundImage = "url(e4.jpeg)";
+}
+function image5(){
+document.body.style.backgroundImage = "url(e5.jpeg)";
+}
+</script>
+        <meta charset="utf-8">
+        <title>UCHIHA-admin </title>
+        <style> 
+  body{
+background-image: url(menu);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: auto;
+} 
+@font-face {
+font-family:'Cafe Francoise_D';
+src:url('Cafe Francoise_D.otf');
+}
+.f1{
+ font-family:'Cafe Francoise_D';
+ font-size:50px;
+ color: green;
+ text-align:center;
+}
+             .btn1{
+height: 100px; width: 100px;
+background-image: url(e1.jpeg);
+background-size:  cover; }
+.btn2{
+height: 100px; width: 100px;
+background-image: url(e2.jpeg);
+background-size:  cover; }
+.btn3{
+height: 100px; width: 100px;
+background-image: url(e3.jpeg);
+background-size:  cover; }
+.btn4{
+height: 100px; width: 100px;
+background-image: url(e4.jpeg);
+background-size:  cover; }
+.btn5{
+height: 100px; width: 100px;
+background-image: url(e5.jpeg);
+background-size:  cover; }
+            label {
+font-size: 27px;
+font-weight: 1000;
+}
+            .but {background-color: #900C3F; 
+padding: 7px 30px;}
+.but1 {background-color: #F39C12; 
+padding: 7px 30px;}
+.but2 {background-color: #9B59B6; 
+padding: 7px 30px;}
+.but3 {background-color: #3498DB; 
+padding: 7px 30px;}
+.but4 {background-color: #95A5A6; 
+padding: 7px 30px;}
+.but5 {background-color: #34495E; 
+padding: 7px 30px;}
+.but6 {background-color: #273746; 
+padding: 7px 30px;}
+
+
+        </style>
+</head>
+        <body>
+             <h1> 🆄 🅲 🅷 🅸 🅷 🅰 </h1>
+             <p id="0" class="f1">Welcome Admin</p>
+            <div>
+            <label>Change Heading Background To: </label>
+             <input class="but" type="button" onclick = "changeColor('#900C3F');"/>
+            <input class="but1" type="button" onclick = "changeColor('#F39C12');"/>
+            <input class="but2" type="button" onclick = "changeColor('#9B59B6');"/>
+            <input class="but3" type="button" onclick = "changeColor('#3498DB');"/>
+            <input class="but4" type="button" onclick = "changeColor('#95A5A6');"/>
+             <input class="but5" type="button" onclick = "changeColor('#34495E');"/>
+            <input class="but6" type="button" onclick = "changeColor('#273746');"/>
+            </div>
+            <label>Change Background To: </label>
+            <button class="btn1" onclick= "image1()"> </button>
+            <button class="btn2" onclick= "image2()" > </button>
+            <button class="btn3" onclick= "image3()" > </button>
+            <button class="btn4" onclick= "image4()"> </button>
+            <button class="btn5" onclick= "image5()"> </button>
+        </body>
+</html>

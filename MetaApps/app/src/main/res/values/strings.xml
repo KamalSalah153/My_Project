@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MetaApps</string>
+    <string name="kiro_helal">Kiro Helal</string>
+    <string name="email_addres">Email Addres</string>
+    <string name="log_in">Log In</string>
+    <string name="resgister">Resgister</string>
+    <string name="forget_your_password">Forget Your Password ?</string>
+    <string name="create_an_account">create an account!</string>
+    <string name="meta_ideas_logo">meta ideas logo</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="resend_sms">Resend SMS ?</string>
+    <string name="first_number">First Number</string>
+    <string name="Addition">+</string>
+    <string name="Division">/</string>
+    <string name="Mulitplcation">*</string>
+    <string name="Subraction">-</string>
+    <string name="calculator_app">Calculator App</string>
+    <string name="randomhighest_mountain">RandomHighest Mountain App</string>
+    <string name="welcome_to_random_highest_mountains">Welcome to Random Highest Mountains</string>
+    <string name="random_highest_mountains">Random Highest Mountains</string>
+</resources>

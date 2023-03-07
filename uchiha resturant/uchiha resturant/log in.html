@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>UCHIHA </title>
+        <style> body{
+background-image: url(resturant/menu/res.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: auto;
+}
+form{font-family:'Cafe Francoise_D';
+    font-size:15px;
+    
+}
+fieldset[nama="log in"]{padding:10px; border:solid black;width:1000px;margin:20px auto;}
+legend[name="Sign In"] {font-size:18px;border:solid white;padding:5px;color:white;text-align:center}
+fieldset[nama="register"]{padding:10px; border:solid black;width:1000px;margin:20px auto;}
+legend[name="Sign up"]{ font-size:18px;border:solid white;padding:5px;color:white;text-align:center}
+
+label
+{margin-bottom:8px;color:black;display:block}
+input
+{margin-bottom:8px;padding:8px;width:300px;display:block}
+select{margin-bottom:8px;}
+
+
+button{
+ margin-bottom:8px;padding:8px;width:300px;display:block;
+    font-weight:bold;
+    font-size:15px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid black;
+    cursor:pointer;
+    border-radius:7px;
+}
+.info{
+    border:2px solid black;
+    border-radius:3px;
+}
+@font-face {
+font-family:'Cafe Francoise_D';
+src:url('resturant/Cafe Francoise_D.otf');
+}
+.f1{
+ font-family:'Cafe Francoise_D';
+ font-size:50px;
+ color:White;
+ text-align:center;
+}
+        </style>
+        <script type="text/javascript">
+    
+
+
+function resetPass() {
+        document.getElementById("pass").value="";
+        document.getElementById("confirmpass").value="";
+      }
+ 
+      function Confirm() {
+        var str1=document.getElementById("pass").value;
+        var str2=document.getElementById("confirmpass").value;
+        if (str1!=str2) {
+            alert("ERROR: Your password and confirmation password do not match");
+            resetPass();  
+        }
+      }
+function admin(form) {
+    if (document.getElementById("admin1").value=="restaurantadmin"&&document.getElementById("adminpass").value=="0123456789") {
+  form.action = "resturant/admin.html";
+  alert(form.action);
+  return false;
+
+        //move to admin page
+    }
+    else{alert("wrong user name or password");}
+}
+
+
+</script>
+		</head>
+   
+		<body>
+    
+             <h1> 🆄 🅲 🅷 🅸 🅷 🅰 </h1>
+             <p class="f1">Welcome to our Restaurant</p>
+              <form >
+		<fieldset nama="log in">
+		<legend name="Sign In"  >Sign In</legend>
+		<label>Username </label>
+				<input class="info" type="text" name="username" placeholder="Enter your name" minlength="10" id="admin1" required autocomplete="off">
+				
+				<label>Password </label>
+		<input class="info" type="password" name="password" placeholder="Enter your password" minlength="8" id="adminpass" required autocomplete="off">
+		<button  formaction = "resturant/Home.html";>sign in</button>
+    
+  <button onclick= "admin(form);">Sign In as admin</button>  
+		</fieldset>
+		</form>
+            
+
+		<form >
+		<fieldset nama="register">
+		<legend name="Sign up">Sign Up</legend>
+		<label>Username </label>
+		<input class="info" type="text" name="username" placeholder="type your name" minlength="10" required autocomplete="off">
+		<br>
+		<label>e-mail </label>
+		<input class="info" type="email" name="e-mail" placeholder="Enter Your e-mail" minlength="10" required autocomplete="off">
+		<br>
+        	<label>Adress </label>
+		<input class="info" type="text" name="adress" placeholder="Enter Your Adress" required autocomplete="off">
+		<br>
+        	<label>Password </label>
+		<input class="info" type="password" name="password" placeholder="password" minlength="8" id="pass" required autocomplete="off">
+  <label>Confirm Password </label>
+		<input class="info" type="password" name="conpassword" placeholder="confirm password" minlength="8"id="confirmpass" required autocomplete="off">
+<label>Gender</label>
+<select name="gender" >
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select> 
+<button id="Sign up"  onclick="Confirm();"  formaction = "resturant/Home.html">sign up</button>>
+		</fieldset>
+        </form>
+       
+		</body>
+		</html>
